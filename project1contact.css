@@ -1,0 +1,80 @@
+body{
+	background-color: #fde0bc;
+}
+
+.links{
+	display: flex;
+	justify-content: safe flex-end;
+	position: relative;  right: 200px;
+	padding: 45px;
+}
+
+a{
+	color: #000000;
+}
+
+a:hover {
+	background-color: transparent;
+	text-decoration: underline;
+	color: #995508;
+}
+
+.home{
+	position: relative;
+	right: 35px;
+	text-decoration: none;
+}
+
+.port {
+	position: relative;
+	right: 15px;
+	text-decoration: none;
+	
+}
+
+.serv {
+	position: relative;
+	right: px;
+	text-decoration: none;
+}
+
+
+img{
+	width: 550px;
+}
+
+.picdiv{
+	display: inline-block;
+	max-width: 600px;
+	margin-left:10%;
+
+	
+
+}
+
+div{
+	display: inline-block;
+}
+
+.main{
+	border-style: solid;
+	border-color: #000000;
+	border-width: 2px;
+	padding: 20px;
+	max-width: 500px;
+	min-height: 350px;
+	float: right;
+	position: relative;
+	right: 100px;
+}
+
+.content{
+	margin-right: 90px;
+	float: left;
+}
+
+.button{
+	position: relative;
+	top: 100px;
+	right: 315px;
+}

@@ -1,0 +1,168 @@
+body {
+	background-image: url(background.jpg); /*not working. idk why*/
+	color: whitesmoke;
+}
+
+.links {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	right: 200px;
+}
+
+a:hover {
+	color: #FA8B0D;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.home {
+	position: relative;
+	right: 45px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.about {
+	position: relative;
+	right: 30px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.services {
+	position: relative;
+	right: 23px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.contact {
+	position: relative;
+	right:  5px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.ryananmike_img {
+	background-image: url(ryananmike.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 1000px;
+}
+
+.heading {
+	position: absolute;
+	top: 20px;
+}
+
+.p1 {
+	position: absolute;
+  
+	justify-content: flex-end;
+   	max-width: 500px;
+   	font-size: 20px;
+}
+
+.grid {
+	--gap: 75px; 
+	--num-columns: 3;
+	--row-height: 650px;
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-columns), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+	position: unset;
+	margin-left: 10%;
+	font-size: 20px;
+}
+
+.handdrawn {
+	position: relative;
+	right: 150px;
+	top: 250px;
+}
+
+.posing {
+	position: relative;
+	top: 245px;
+	right: 65px;
+}
+
+.jordan1 {
+	position: relative;
+	top: 245px;
+}
+
+.videographer{
+		color: black;
+		font-size: 20px;
+		max-width: 500px;
+	}
+
+
+.grid2 {
+	--gap: 75px;
+	--num-columns: 3;
+	--row-height: 650px;
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-columns), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+	position: unset;
+	margin-left: 10%;
+	color: black;
+	font-size: 20px;
+}
+
+.bachata {
+	position: relative;
+	right: 150px;
+}
+
+.beerPong {
+	position: relative;
+	right: 150px;
+}
+
+.goldDigger {
+	position: relative;
+	right: 150px;
+}
+
+.tikTok {
+	position: relative;
+	right: 200px;
+}
+
+.ourRap {
+	position: relative;
+	right: 200px;
+}
+
+.oregonTrip {
+	position: relative;
+	right: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

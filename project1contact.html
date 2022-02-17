@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project1 Contact Me Page</title>
+
+	<link rel="stylesheet" type="text/css" href="css/project1contact.css"> 
+</head>
+<body>
+
+	<header>
+		<nav class="links">
+			<a class="home" href="project1.html">Home</a>
+			<a class="port" href="project1portfolio.html">Portfolio</a>
+			<a class="serv" href="project1services.html">Services</a>
+		</nav>
+	</header>
+
+	<div class="picdiv">
+		<img src="htmlpics/danny.jpeg">
+	</div>
+
+	<div class="main">
+		<div class="content">
+			<h1>Contact Me</h1>
+
+			<form>
+				<label for="fname">Full Name</label><br>
+				<input type="text" required name="fname" id="fname"><br>
+				<label for="email">Email</label><br>
+				<input type="text" required name="email" id="email">
+
+				<p>Which Service?</p>
+				<input type="radio" name="vidgraph">
+				<label for="vidgraph">Videography</label>
+				<input type="radio" name="grades">
+				<label for="grades">Graphic Design</label>
+			</form>
+		</div>
+		
+		<div>
+			<h3>Contact</h3>
+			<p>myemail@something.com<br>(858) 123-4567</p>
+
+			<h3>Based IN</h3>
+			<p>San Diego, <br>California</p>
+		</div>	
+
+		<button class="button" type="button" onclick="alert('Thanks for submitting!')">Contact Me</button>
+		
+	</div>
+
+</body>
+</html>
